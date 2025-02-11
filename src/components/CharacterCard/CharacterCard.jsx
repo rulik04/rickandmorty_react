@@ -1,5 +1,4 @@
 import "./CharacterCard.scss";
-
 const CharacterCard = ({ character }) => {
     const getStatusClass = (status) => {
         switch (status.toLowerCase()) {
